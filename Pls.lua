@@ -25,7 +25,7 @@ plr.Data.Beli.Value = plr.Data.Beli.Value + 2500011
 
 delay = 0
 count = 0
-while plr.Data.Exp.Value - EXPFunction(Data.Level.Value) > 800000000000 do
+while plr.Data.Exp.Value - EXPFunction(Data.Level.Value) > 0 do
     plr.Data.Exp.Value = plr.Data.Exp.Value - EXPFunction(Data.Level.Value)
     plr.Data.Level.Value = plr.Data.Level.Value + 1
     plr.Data.Points.Value = plr.Data.Points.Value + 3
