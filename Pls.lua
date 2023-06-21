@@ -20,7 +20,7 @@ end;
 Notification.new("<Color=Yellow>QUEST COMPLETED!<Color=/>"):Display()
 Notification.new("Earned <Color=Yellow>10,000,000, Exp.<Color=/> (+ None)"):Display()
 Notification.new("Earned <Color=Green>$25,000<Color=/>"):Display()
-plr.Data.Exp.Value = 10000000
+plr.Data.Exp.Value = 10000001
 plr.Data.Beli.Value = plr.Data.Beli.Value + 2500011
 
 delay = 0
